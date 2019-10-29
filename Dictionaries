@@ -1,0 +1,23 @@
+# This works though if many data inputs this may become overwhelming
+
+students0 = ["tonny", 39, "dan", 30, "jens", 29]
+
+# This is another way of creating same dictionary as above
+
+students0['tonny', 39, 'dan', 30, 'jens', 29]
+
+students = {"Tonny":39, "Dan":30, "Jens":29}
+
+students{'Tonny': 39, 'Dan': 30, 'Jens': 29}
+
+students["Tonny"]
+
+students["Tonny"] = 40
+
+students{'Tonny': 40, 'Dan': 30, 'Jens': 29}
+
+del students["Jens"]
+
+students{'Tonny': 40, 'Dan': 30}
+
+len(students)
