@@ -1,0 +1,78 @@
+# Generating a List for use in examples
+list1 = ("Apple", "Microsoft", "Raspberry Pi")
+
+# Generating a List Tuple for use in examples
+tup1 = (11, 12, 15)
+
+# For Loop used on a list:
+# it goes through every item in the list
+# designating the name "Apple" to "item 1" in the list
+# then "Microsoft" to "item 2" in the list
+# and then finally "Raspberry Pi" to "item 3" in the list
+# while printing every item to the screen with the designated
+# name
+
+for item in list1:
+	print(item)
+
+# result in:
+# Apple
+# Microsoft
+# Raspberry Pi
+
+# Doing the same thing for the Tuple will result in:
+for item in tup1:
+	print("item")
+
+# result in:
+# 11
+# 12
+# 15
+
+# Range functions - goes from one index to another index
+#
+# The name tag after "for" can be anything - I use index but
+# it could also be "i", "tosse", or any other thing to help
+# you remember what kind of data/value this is
+for index in range(0,10):
+	print(index)
+
+# result in:
+# 0
+# 1
+# 2
+# 3 
+# 4 
+# 5
+# 6
+# 7
+# 8
+# 9
+
+for index in range(1,11):
+	print(index)
+
+# result in:
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
+# 10
+
+# Range function - Skip feature
+# will skip every second number between "0" to "11"
+for index in range(0,11,2):
+	print(index)
+
+# resul in:
+# 0
+# 2
+# 4
+# 6
+# 8
+# 10
