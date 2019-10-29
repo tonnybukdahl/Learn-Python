@@ -1,0 +1,43 @@
+# simple IF statement
+if(3<4):
+	print("Hello")
+
+# IF/ELSE statement
+if(3<2):
+	print("Hello")
+else:
+	print("Not true")
+
+# Compare data that MIGHT be equal to each value
+
+3 >= 2
+# results in "true"
+
+3 <= 2
+# results in "false"
+
+3 == 3
+# results in "true"
+
+# Compare data NOT equal to each value
+3 != 2
+# results in "true" - 3 IS in fact different from 2
+
+2 != 2
+# results in "false" - 2 is NOT different from 2
+
+# Elif (Else if)
+age = 16
+if (age < 13):
+	print("You are young")
+elif (age >= 13 and age < 18):
+	print("you are a teenager")
+else:
+	print("You are an adult")
+
+if (5 > 3) and (2 > 1):
+	print("Hi")
+
+if (5 > 3) or (2 < 1):
+	print("hi")
+
