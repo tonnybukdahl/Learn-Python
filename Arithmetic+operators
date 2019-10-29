@@ -1,0 +1,38 @@
+# age1 = 12
+
+# age2 = 18
+
+# age1 + age2
+# age1 - age2
+# age1 * age2
+# age1 / age2
+
+# Modulus
+
+age2 % age1
+
+age1 % age2
+
+# Strings
+
+sent = "Today was a great day"
+firstName = "Donald"
+lastName = "Duck"
+firstName + lastName
+
+firstName + " " +lastName
+
+"hi" * 10
+
+#Splicing
+
+sent2 = "I am learning to code in Python"
+sent2[0]
+
+sent2[8]
+
+sent2[0:7]
+
+sent2[0:6]
+
+sent2[:-3]
